@@ -1,0 +1,53 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2016-10-29 17:54:55
+ * @version $Id$
+ */
+.foot-content{
+	width: 848px;
+	margin: 0 auto;
+	color: #333;
+}
+.foot-top{
+	background-color: #272f3b;
+	color: #606b7b;
+	padding-bottom: 25px;
+}
+.foot-top-left{
+	float: left;
+	padding: 20px 0;
+    border-right: solid 1px #606b7b;
+    margin-top: 20px;
+}
+.foot-top-left ul li{
+	float: left;
+	padding-right: 66px;
+}
+.foot-top-left ul li h4{
+	color: #c8d0dd;
+	margin-bottom: 28px;
+}
+.foot-top-left ul li p{
+	color: #606b7b;
+	line-height: 24px;
+}
+.foot-top-right{
+	float: left;
+	margin-top: 40px;
+    margin-left: 70px;
+}
+.foot-top-right h4{
+	color: #c8d0dd;
+	margin-bottom: 10px;
+}
+.foot-top-right img{
+
+}
+.foot-btm{
+	background-color: #171f2a;
+	color: #3b4756;
+	text-align: center;
+	padding: 15px 0;
+}
