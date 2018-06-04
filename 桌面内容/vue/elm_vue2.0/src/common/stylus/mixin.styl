@@ -1,0 +1,72 @@
+
+border-1px($color)
+	position:relative 
+	&:after
+		display :block
+		position :absolute
+		width :100%
+		height :1px
+		left :0
+		bottom :0
+		background-color :$color
+		content :''  
+border-1px-right($color)
+	position:relative 
+	&:after
+		display :block
+		position :absolute
+		width :1px
+		height :100%
+		top :0
+		right :0
+		background-color :$color
+		content :''  
+		
+border-1px-top($color)
+	position:relative 
+	&:before
+		content ''
+		display :block
+		position :absolute
+		width :100%
+		height :1px
+		left :0
+		top :0
+		background-color :$color
+
+		
+border-1px-left($color)
+	position:relative 
+	&:before
+		content ''
+		display :block
+		position :absolute
+		width :1px
+		height :100%
+		top :0
+		left :0
+		background-color :$color
+ 
+		
+border-all($color)
+	position:relative 
+	&:after
+		content :'' 
+		display :block
+		box-sizing :border-box
+		position :absolute
+		width :200%
+		height :200%
+		left :0
+		top :0
+		z-index :-1
+		border :1px solid $color
+		 
+border-none()	
+	&:after
+		display none
+		
+bg-img($url)
+	background-image :url($url+'@2x.png')	
+	@media (-webkit-min-device-pixel-ratio:3),(min-device-pixel-ratio:3)
+		background-image :url($url+'@3x.png')
